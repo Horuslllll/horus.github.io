@@ -1,5 +1,8 @@
 ## Welcome to GitHub Pages
 <script  src="script.js"></script>
+<div class="block" id="divblock1" >
+<img src="http://martinkingauthor.com/img/home-jh1-2.png" class="chest" id="img0" onClick="run(id)" align="center"></img>
+</div>
 You can use the [editor on GitHub](https://github.com/Horuslllll/horus.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
