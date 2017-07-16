@@ -1,5 +1,5 @@
 ## Welcome to GitHub Pages
-<script src="script.js" type="text/javascript"></script>
+
 <div class="block" id="divblock1" >
 <img src="http://martinkingauthor.com/img/home-jh1-2.png" class="chest" id="img0" onClick="run(id)" align="center"></img>
 </div>
