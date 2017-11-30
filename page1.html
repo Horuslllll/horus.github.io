@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Hello, WebVR! - A-Frame</title>
+    <meta name="description" content="Hello, WebVR! - A-Frame">
+   <link type="text/css" rel="stylesheet" href="style.css"/>
+    <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
+    <script src="vr2.js"></script>
+
+  </head>
+  <body  onload='f()'>
+<script>
+function Reset(){
+//window.open("file:///C:/Users/User/proj/site/2.html");
+};
+
+</script>
+    <a-scene >
+
+<a-assets>
+<img id="texture" src='https://raw.githubusercontent.com/Horuslllll/horus.github.io/master/bright_rainbow_splash_Wallpaper_d7bmb.jpg' />
+<img id="sky1" src='https://raw.githubusercontent.com/Horuslllll/horus.github.io/master/423137.jpg' />
+<img id="plane1" src="https://raw.githubusercontent.com/Horuslllll/horus.github.io/master/423137.jpg" />
+</a-assets>
+
+<a-sky src="#sky1">
+
+</a-sky>
+
+
+
+<a-sphere id="b1" position="0 2 -5" rotation ="0 0 0" src="#texture">
+<a-animation attribute="rotation" dur="1000" to="360 180 45" repeat="indefinite"></a-animation>
+
+
+
+
+<a-entity daydream-controls="hand: left"></a-entity>
+
+
+</a-sphere>
+
+  
+
+<a-plane src="#plane1" rotation="-90 0 0" height="100" width="100"></a-plane>
+
+
+</a-scene>
+
+<div class="laymenu"><div class='mc'>
+   Тест на иррациональность/рациональность (дихотомии Юнга)<p>
+ Выберите один глаз , другой глаз закройте, следитие за движущимся объектом обращая внимание на сколько легко или трудно глазу следить за движущимся объектом. 
+Затем нажмите кнопку "Restart" проделайте тоже самое с другим глазом. 
+Сравните ощущения и определите какому глазу легче следить за движущимся объектом. 
+Если одного раза недостоточно для определения, вы можете запускать анимацию столько раз сколько нужно пока не определитесь. 
+Когда определите глаз, нажмите кнопку "Result".
+ Eсли вам понадобится прочитать эту инструкцию еще,- нажмите кнопку "Instruction". 
+Для запуска анимации нажмите кнопку "Start".
+<p><a href='page2.html'>START</a>
+</div></div>
+
+
+  </body>
+</html>
